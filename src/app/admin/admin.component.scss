@@ -1,0 +1,48 @@
+.admin-container {
+  overflow: auto;
+  padding: 20px;
+  .admin-box {
+    border: 1px solid;
+    border-radius: 5px;
+    min-height: 200px;
+    width: 205px;
+    margin-bottom: 10px;
+    .adminBox-container {
+      padding: 10px;
+      position: relative;
+      min-height: 151px;
+      .adminBox-header {
+        .header-symbol {
+          background: #5197aa;
+          color: white;
+          font-weight: bold;
+          border-radius: 25px;
+          padding: 5px;
+          text-align: center;
+        }
+        .header {
+          padding-left: 15px;
+        }
+      }
+      .adminBox-details {
+        .user-symbol {
+          position: absolute;
+          background: #5197aa;
+          color: white;
+          font-size: 40px;
+          font-weight: 100;
+          padding: 6px;
+          border-radius: 45px;
+          right: 5px;
+          bottom: 15px;
+        }
+      }
+    }
+    .edit-bar {
+      background: #5197aa;
+      text-align: right;
+      color: white;
+      padding: 0 10px;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.dashboard-container {
+  overflow: auto;
+}
+
+.chart-container {
+  .chart-title {
+    font-size: 14px;
+    text-align: left;
+    color: #58595B;
+  }
+  .chart {
+    border: 1px solid grey;
+    text-align: center;
+    height: 148px;
+  }
+}
+
+.recentHighlights {
+  .highlight {
+    padding: 10px 0;
+  }
+}
+
+.content-section {
+  padding: 30px;
+}
+
+.contributors {
+  border: 1px solid grey;
+  max-width: 371px;
+  height: 370px;
+}
+
+.asset-totals-container {
+  .asset-totals {
+    border: 1px solid grey;
+    width: 133px;
+    height: 131px;
+    margin: 0 10px;
+  }
+}

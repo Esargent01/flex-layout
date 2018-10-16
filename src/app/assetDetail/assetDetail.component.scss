@@ -1,0 +1,31 @@
+:host {
+  flex: 1 1 100%;
+}
+
+.assetDetail-container {
+  .assetDetail-header {
+    padding: 10px 30px 20px;
+  }
+  .detail-container {
+    height: 100%;
+    .detail1 {
+      overflow: auto;
+      border-right: 1px solid darkgray;
+      padding: 20px;
+    }
+    .detail2 {
+      overflow: auto;
+      width: 300px;
+      padding: 20px;
+    }
+  }
+  .supportingDocumentation {
+    padding: 10px 20px;
+  }
+  .noDocumentation {
+    background: #F9FAFE;
+    padding: 40px;
+    margin: 20px;
+    text-align: center;
+  }
+}

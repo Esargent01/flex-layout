@@ -1,0 +1,52 @@
+:host {
+  flex: 1 1 100%;
+}
+
+.notifications-container {
+  overflow: auto;
+  .assetDetail-container{
+    padding: 20px;
+    .notification-container {
+      padding-bottom: 25px;
+      border-bottom: 1px solid lightgrey;
+      .notification {
+        padding: 15px 0;
+        .message {
+          font-weight: 100;
+          padding-left: 5px;
+        }
+        .badge {
+          width: 30px;
+          height: 30px;
+          background: #038EB3;
+          border-radius: 15px;
+          color: white;
+          font-weight: 100;
+          text-align: center;
+          padding-top: 6px;
+        }
+      }
+      .timeframe {
+        color: lightgrey;
+        font-size: 12px;
+      }
+      .notification-detail {
+        margin-top: 15px;
+        background: #F6F6F6;
+        padding: 10px;
+        .asset {
+          padding-bottom: 15px;
+          font-weight: 100;
+          .asset-type {
+            font-weight: bold;
+          }
+        }
+        .view-details {
+          color: #00558b;
+          text-decoration: none;
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}

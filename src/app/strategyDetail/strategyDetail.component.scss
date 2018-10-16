@@ -1,0 +1,102 @@
+:host {
+  flex: 1 1 100%;
+}
+
+.strategyDetail-container {
+  .strategyDetail-programName {
+    color: #3B617A;
+    font-size: 1.5em;
+    padding: 10px 30px;
+  }
+  .detail-container {
+    height: 100%;
+    overflow: auto;
+    .detail {
+      padding: 0 20px;
+      border-top: 1px solid lightgrey;
+      &:first-child {
+        border-top: none;
+        padding-top: 20px;
+      }
+      .supportingDocumentation {
+        padding: 10px;
+        border-right: 1px solid lightgrey;
+      }
+      .sponsors {
+        padding-left: 20px;
+        .user {
+          font-size: 20px;
+          margin-left: 10px;
+          padding: 10px 0;
+        }
+      }
+      .status {
+        width: 12px;
+        height: 12px;
+        background: red;
+        border-radius: 2px;
+        display: inline-block;
+        margin-right: 8px;
+      }
+    }
+    .sideBar {
+      background: #3B617A;
+      .addGoal {
+        text-align: center;
+        color: white;
+        padding: 20px 0;
+      }
+      .sidebarContent {
+        overflow-y: auto;
+        overflow-x: hidden;
+        .goal li {
+          font-size: 15px;
+          color: white;
+          padding: 10px 0;
+          list-style: none;
+        }
+      }
+    }
+    .content-section {
+      overflow: auto;
+      .content-container {
+        border-bottom: 1px solid lightgrey;
+        .related-info {
+          padding: 15px;
+          border-bottom: 1px solid lightgrey;
+        }
+        .supportingDocumentation {
+          padding: 10px;
+          border-right: 1px solid lightgrey;
+        }
+        .sponsors {
+          padding-left: 20px;
+          .user {
+            font-size: 20px;
+            margin-left: 10px;
+            padding: 10px 0;
+          }
+        }
+      }
+    }
+    .relatedInfo-header {
+      font-size: 18px;
+      color: #3a617b;
+      font-weight: 100;
+      padding: 10px 0 20px;
+    }
+  }
+  .noDocumentation {
+    background: #F9FAFE;
+    padding: 40px;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .section-header {
+    font-size: 16px;
+    color: grey;
+    padding: 10px 0 20px;
+    display: block;
+  }
+}

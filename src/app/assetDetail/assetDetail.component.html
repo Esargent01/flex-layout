@@ -1,0 +1,93 @@
+<div fxFlex class="assetDetail-container" fxLayout="column">
+  <mat-form-field class="assetDetail-header" fxFlex="15">
+    <input matInput placeholder="Term" value="Test Term">
+  </mat-form-field>
+  <mat-tab-group class="assetDetail-tabs" fxFlex>
+    <mat-tab label="Overview">
+      <div class="detail-container" fxLayout="row">
+        <div class="detail1" fxFlex="80" fxLayout="column">
+          <div class="form-header">Definition *</div>
+          <mat-form-field fxFlex="15">
+            <input matInput placeholder="" value="">
+          </mat-form-field>
+          <div class="form-header">Additional Info</div>
+          <mat-form-field class="additionInfo" fxFlex="15">
+            <input matInput placeholder="" value="">
+          </mat-form-field>
+          <mat-tab-group fxFlex="none">
+            <mat-tab label="Supporting Documentation">
+              <div class="supportingDocumentation-fields" fxFlex="row">
+                <mat-form-field fxFlex>
+                  <input matInput placeholder="Add Title" value="">
+                </mat-form-field>
+                <mat-form-field fxFlex>
+                  <input matInput placeholder="Paste URL..." value="">
+                </mat-form-field>
+              </div>
+              <div class="noDocumentation">
+                There is no supporting documentation yet.
+              </div>
+            </mat-tab>
+            <mat-tab label="Comments">
+
+            </mat-tab>
+          </mat-tab-group>
+        </div>
+        <div class="detail2" fxFlex="none" fxLayout="column">
+          <div class="form-header">Status</div>
+          <mat-form-field fxFlex="15">
+            <input matInput placeholder="" value="">
+          </mat-form-field>
+          <div class="form-header">Assigned To</div>
+          <mat-form-field class="additionInfo" fxFlex="15">
+            <input matInput placeholder="" value="">
+          </mat-form-field>
+          <div class="form-header">Sponsors</div>
+          <mat-form-field class="additionInfo" fxFlex="15">
+            <input matInput placeholder="" value="">
+          </mat-form-field>
+          <div class="form-header">Additional Endorsers</div>
+          <mat-form-field class="additionInfo" fxFlex="15">
+            <input matInput placeholder="" value="">
+          </mat-form-field>
+          <div class="form-header">Goals</div>
+          <mat-form-field class="additionInfo" fxFlex="15">
+            <input matInput placeholder="" value="">
+          </mat-form-field>
+          <div class="form-header">Initiatives</div>
+          <mat-form-field class="additionInfo" fxFlex="15">
+            <input matInput placeholder="" value="">
+          </mat-form-field>
+        </div>
+      </div>
+    </mat-tab>
+    <mat-tab label="Terms">
+      <div class="detail-container" fxFlex fxLayout="column">
+        <div class="form-header">Definition *</div>
+        <mat-form-field>
+          <input matInput placeholder="" value="">
+        </mat-form-field>
+        <div class="form-header">Additional Info</div>
+        <mat-form-field class="additionInfo">
+          <input matInput placeholder="" value="">
+        </mat-form-field>
+        <mat-tab-group>
+          <mat-tab label="Supporting Documentation" fxLayout="row">
+            <mat-form-field class="supportingDocumentation" fxFlex="50">
+              <input matInput placeholder="Add Title" value="">
+            </mat-form-field>
+            <mat-form-field class="supportingDocumentation" fxFlex="50">
+              <input matInput placeholder="Paste URL..." value="">
+            </mat-form-field>
+            <div class="noDocumentation" fxFlex="100">
+              There is no supporting documentation yet.
+            </div>
+          </mat-tab>
+          <mat-tab label="Comments">
+
+          </mat-tab>
+        </mat-tab-group>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+</div>
